@@ -29,6 +29,10 @@ The daily rain figure in the summaries is a blend of six models: the European 9 
 
 The line-up was chosen in November 2026 by scoring each model's past forecasts, one to seven days ahead, against the Auckland Airport and Hamilton Airport rain gauges from January 2024 to November 2026. At Auckland the blend's average miss on a day's rain, one to six days ahead, was about 4% lower than the previous blend's on the same days (2.53 mm down to 2.42 mm, from February 2025 on), and at five and six days ahead it caught about half the days of 10 mm or more, up from about four in ten. The airport gauge is about 13 km from Ellerslie and 25 km from Pukekohe, and the test covers daily totals, not the timing of showers within a day.
 
+The rain for each hour, from today on, is the average of the six models for that hour, scaled so the day's hours add up to the day's blend. Against the gauges' six-hour totals that ran 13 to 19% closer than one model's hours on their own. Because averaging flattens a sharp burst, the "5 mm or more in the hour" flags still read the European 9 km model's own hours.
+
+The chance tables give the chance of 1, 5, 10 and 20 mm falling in a stretch of hours. Each chance comes from the share of the models whose total reaches the amount and how far the blended total is from it, with weights fitted to what fell at the two gauges from February 2025 to November 2026. Fitted on one gauge and checked on the other, 70% came in at 64 to 75% for a day or more and 64 to 69% for part of a day.
+
 ## Hosting
 
 Hosted on Vercel from this repository. `vercel.json` maps `/ellerslie` and `/pukekohe` to the page; the page picks the course from the address.
